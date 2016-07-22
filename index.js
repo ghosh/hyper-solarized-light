@@ -1,7 +1,7 @@
 const backgroundColor = '#fdf6e3'
 const foregroundColor = '#839496'
-const cursorColor = '#d33682' // blue
-const borderColor = 'rgba(38, 139, 210, 0.3)'
+const cursorColor = 'rgba(211, 54, 130, 0.6)
+const borderColor = 'rgba(38, 139, 210, 0.3)' // blue
 const activeTabBorderColor = '#6c71c4' // cyan
 
 const colors = [
