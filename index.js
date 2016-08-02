@@ -42,7 +42,6 @@ exports.decorateConfig = config => {
       * {
         -webkit-font-feature-settings: "liga" on, "calt" on, "dlig" on !important;
         text-rendering: optimizeLegibility !important;
-        font-weight: 500;
       }
       .cursor-node {
         width: .325rem !important;
