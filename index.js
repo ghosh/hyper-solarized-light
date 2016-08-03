@@ -53,7 +53,6 @@ exports.decorateConfig = config => {
         border: transparent !important;
         color: ${foregroundColor} !important;
         background-color: #e6dfcb;
-        border-bottom: solid 3px ${activeTabBorderColor} !important;
       }
       .tabs_title {
         color: ${foregroundColor} !important;
