@@ -42,7 +42,6 @@ exports.decorateConfig = config => {
       * {
         -webkit-font-feature-settings: "liga" on, "calt" on, "dlig" on !important;
         text-rendering: optimizeLegibility !important;
-        font-weight: 500;
       }
       .cursor-node {
         width: .325rem !important;
@@ -51,21 +50,22 @@ exports.decorateConfig = config => {
         border-color: transparent !important;
       }
       .tab_tab {
+        border: transparent !important;
         color: ${foregroundColor} !important;
-        background-color: ${backgroundColor};
+        background-color: #e6dfcb;
+        border-bottom: solid 3px ${activeTabBorderColor} !important;
       }
       .tabs_title {
         color: ${foregroundColor} !important;
       }
-      .active_1gcgehd:before {
+      .tab_tab.tab_active:before {
         border-bottom: transparent !important;
       }
       .tab_tab.tab_active {
-        border: transparent !important;
-        font-weight: bold;
         color: ${foregroundColor} !important;
-        background-color: #e6dfcb;
-        border-bottom: solid 3px ${activeTabBorderColor} !important;
+        background-color: ${backgroundColor};
+        border-bottom: none !important;
+        font-weight: bold;
       }
     `
   })
