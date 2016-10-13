@@ -1,24 +1,24 @@
-#Solarized Light for HyperTerm
+#Solarized Light Theme for Hyper
 
-A port of the [Solarized Light](http://ethanschoonover.com/solarized) theme for [Hyperterm](https://hyperterm.org/)
+A port of the [Solarized Light](http://ethanschoonover.com/solarized) color scheme for [Hyper.app](https://hyper.is/)
 
-![Solarized Light Hyper Term](https://dl.dropboxusercontent.com/u/29130579/hyperterm-solarized-light.png)
+![Solarized Light Hyper](https://dl.dropboxusercontent.com/u/29130579/hyperterm-solarized-light.png)
 
 ### Installation
-1. Open HyperTerm's preferences by pressing `Cmd+,` or manually at `~/.hyperterm.js`.
-2. Find and Update the plugins array to include `hyperterm-solarized-light`:  
+1. Open HyperTerm's preferences by pressing `Cmd + ,`.
+2. Find and Update the plugins array to include `hyper-solarized-light`:
 
   ```js
   plugins: [  
-    'hyperterm-solarized-light'  
+    'hyper-solarized-light'  
   ],
   ```
+
 3. Reload HyperTerm by pressing `Cmd + Shft + R`
 
-### Credits
-- [@jxnblk](https://github.com/jxnblk)
-- [@mdo](https://github.com/mdo)
+### Related
+- [Solarized Dark Theme](https://github.com/Ghosh/hyper-solarized-dark)
 
-
-### License
-MIT
+```
+License - MIT
+```

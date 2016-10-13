@@ -1,11 +1,13 @@
 {
-  "name": "hyperterm-solarized-light",
-  "version": "0.1.2",
-  "description": "Hyperterm theme using the light Solarized colors",
+  "name": "hyper-solarized-light",
+  "version": "0.1.0",
+  "description": "Hyper theme using the light Solarized colors",
   "main": "index.js",
   "keywords": [
     "hyperterm",
     "hyperterm-theme",
+    "hyper",
+    "hyper-theme",
     "colors",
     "theme",
     "solarized",
@@ -13,13 +15,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ghosh/hyperterm-solarized-light.git"
+    "url": "git+https://github.com/Ghosh/hyper-solarized-light.git"
   },
   "author": "Indrashish Ghosh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Ghosh/hyperterm-solarized-light/issues"
+    "url": "https://github.com/Ghosh/hyper-solarized-light/issues"
   },
-  "homepage": "https://github.com/Ghosh/hyperterm-solarized-light#readme"
+  "homepage": "https://github.com/Ghosh/hyper-solarized-light#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
-
