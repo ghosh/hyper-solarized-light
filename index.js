@@ -77,6 +77,14 @@ exports.decorateConfig = config => {
       .splitpane_divider {
       	background-color: #e6dfcb !important;
       }
+      .shape_1oxq
+      {
+        color: #657b83;
+      }
+      .appTitle_11va
+      {
+        color: #657b83;
+      }
     `
   })
 }
