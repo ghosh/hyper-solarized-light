@@ -12,7 +12,7 @@ const colors = [
   '#6c71c4', // violet
   '#2aa198', // cyan
   '#657b83', // light gray
-  '#586e75', // medium gray
+  '#a3b7bd', // medium gray
   '#dc322f', // red
   '#859900', // green
   '#b58900', // yellow
@@ -88,4 +88,3 @@ exports.decorateConfig = config => {
     `
   })
 }
-
